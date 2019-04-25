@@ -1,3 +1,6 @@
+## 1.2.2
+  - Ensure compatibility with Logstash >= 6.7
+
 ## 1.2.0
   - Create new objects with ignore_on_error parameter
   - Add option to set custom CAs for SSL verification
