@@ -380,7 +380,6 @@ class LogStash::Outputs::Icinga < LogStash::Outputs::Base
             retry
           else
             @logger.warn("Failed to create object", :response_code => object.code, :response_body => object.body)
-            next
           end
         end
       end
