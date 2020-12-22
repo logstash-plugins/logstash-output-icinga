@@ -312,9 +312,9 @@ class LogStash::Outputs::Icinga < LogStash::Outputs::Base
           end
         else
           if @icinga_service
-            @uri.query = URI.encode_www_form({:service => "#{icinga_host}!#{icinga_service}"})
+            @uri.query = URI.encode_www_form({:service => "#{icinga_host}!#{icinga_service}"}).gsub('+','%20')
           else
-            @uri.query = URI.encode_www_form({:host => icinga_host})
+            @uri.query = URI.encode_www_form({:host => icinga_host}).gsub('+','%20')
           end
 
           @action_config.each do |key, value|
