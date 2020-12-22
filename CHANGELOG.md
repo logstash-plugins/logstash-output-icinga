@@ -1,3 +1,6 @@
+## 1.2.3
+  - Use expected encoding for spaces in URLs
+
 ## 1.2.2
   - Ensure compatibility with Logstash >= 6.7
 
