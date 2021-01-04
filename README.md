@@ -1,6 +1,6 @@
 # Logstash Plugin
 
-[![Travis Build Status](https://travis-ci.org/Icinga/logstash-output-icinga.svg)](https://travis-ci.org/Icinga/logstash-output-icinga)
+[![Travis Build Status](https://travis-ci.com/Icinga/logstash-output-icinga.svg)](https://travis-ci.com/Icinga/logstash-output-icinga)
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
 
